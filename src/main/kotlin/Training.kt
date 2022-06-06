@@ -25,7 +25,7 @@ class Training(
                 LAST_MISTAKES_REVERS -> word.word
                 else -> word.translate
             }
-            println(printedWord)
+            println("translate word: printedWord")
             val inputStr = readln()
             if (inputStr != idealTranslate) {
                 lisMistake.add(word.toMistake(inputStr))
